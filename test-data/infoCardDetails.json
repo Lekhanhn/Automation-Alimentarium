@@ -1,0 +1,26 @@
+[
+    {
+        "title": "This month at the Alimentarium",
+        "button": "More info",
+        "header": "Activities",
+        "expectedUrl": "/en/plan-your-visit/workshops"
+    },
+    {
+        "title": "School activities",
+        "button": "More info",
+        "header": "Activities",
+        "expectedUrl": "/en/visit/school-activities"
+    },
+    {
+        "title": "Systema Alimentarium",
+        "button": "Find out more",
+        "header": "Exhibition",
+        "expectedUrl": "/en/visit/systema-alimentarium"
+    },
+    {
+        "title": "Garden",
+        "button": "See more",
+        "header": "Exhibition",
+        "expectedUrl": "/en/basic-page/garden"
+    }
+]
