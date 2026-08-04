@@ -11,8 +11,16 @@ export class CookieBanner {
 
     async acceptCookies() {
 
-        if (await this.acceptButton.isVisible()) {
-            await this.acceptButton.click();
-        }
+    try {
+        await this.acceptButton.waitFor({
+            state: 'visible',
+            timeout: 3000
+        });
+
+        await this.acceptButton.click();
+
+    } catch {
+        console.log("Cookie banner not displayed.");
+    }
     }
 }

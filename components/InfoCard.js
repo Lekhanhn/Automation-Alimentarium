@@ -65,25 +65,54 @@ export class InfoCard{
         }
         //await card.locator('.btn').click();
     
+    async verifyCardNavigation(cardDetail) {
 
-    async verifyCardNavigation(cardDetail){
+        await this.clickCardButton(cardDetail);
 
-        await Promise.all([
-            this.page.waitForURL(`**${cardDetail.expectedUrl}**`, {
-                waitUntil: 'domcontentloaded'
-            }),
-            this.clickCardButton(cardDetail)
-        ]);
-        //await this.clickCardButton(cardDetail);
+        // Wait until the DOM is ready
+        await this.page.waitForLoadState('domcontentloaded');
 
-        //await this.page.waitForLoadState('networkidle');
-        await expect(this.page).toHaveURL(new RegExp(cardDetail.expectedUrl));
-        //await expect(this.page.url()).toContain(cardDetail.expectedUrl);
+        // Wait until the URL contains the expected value
+        await expect.poll(
+            () => this.page.url(),
+            {
+                timeout: 15000,
+                message: `Expected URL to contain ${cardDetail.expectedUrl}`
+            }
+        ).toContain(cardDetail.expectedUrl);
+
         report.addResult(
             `Click on ${cardDetail.button}`,
             cardDetail.button,
             'Pass',
-            `Successfully Navigated to ${cardDetail.title} page`
+            `Successfully navigated to "${cardDetail.title}" page`
         );
     }
+
+    // async verifyCardNavigation(cardDetail){
+    //     await this.clickCardButton(cardDetail);
+
+    //     await this.page.waitForLoadState('domcontentloaded');
+
+    //     await expect.poll(() => this.page.url()).toContain(cardDetail.expectedUrl);
+
+    //     // await Promise.all([
+    //     //     this.page.waitForURL(`**${cardDetail.expectedUrl}**`, {
+    //     //         waitUntil: 'domcontentloaded'
+    //     //     }),
+    //     //     this.clickCardButton(cardDetail)
+    //     // ]);
+    //     // await this.clickCardButton(cardDetail);
+    //     // //await this.clickCardButton(cardDetail);
+    //     // await this.page.waitForLoadState('domcontentloaded');
+    //     // //await this.page.waitForLoadState('networkidle');
+    //     // await expect(this.page).toHaveURL(new RegExp(cardDetail.expectedUrl));
+    //     // //await expect(this.page.url()).toContain(cardDetail.expectedUrl);
+    //     report.addResult(
+    //         `Click on ${cardDetail.button}`,
+    //         cardDetail.button,
+    //         'Pass',
+    //         `Successfully Navigated to ${cardDetail.title} page`
+    //     );
+    // }
 }

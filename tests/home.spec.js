@@ -49,19 +49,29 @@ test.describe('Home Page Verification', () =>{
             await homePage.mainBanner.verifyBanner();
         });
 
+        await page.goto(process.env.BASE_URL);
+
+        await homePage.cookieBanner.acceptCookies();
+
         // Looping all cards
         for(const card of infoCards){
+            
+            await homePage.waitForHomePage();
+
             await test.step(`Verify "${card.title}" card `, async() => {
                 await homePage.infoCard.verifyCard(card);
             });
         
             await test.step(`Navigate To "${ card.title }" page`, async() => {
                 await homePage.infoCard.verifyCardNavigation(card);
-
-                await page.goBack();
-                //await expect(page).toHaveURL('**/en');
-                await homePage.waitForHomePage();
+                
             });
+            await page.goto(process.env.BASE_URL, {
+                waitUntil: 'domcontentloaded',
+                timeout: 60000
+            });
+
+            await homePage.cookieBanner.acceptCookies();
         }
     });
    
