@@ -85,7 +85,7 @@ export class ExcelReport {
     }
 
     addResult(page, button, status, remarks){
-
+        //console.log(`Adding Row #${this.slNo}: ${page} - ${button}`);
         const row = this.worksheet.addRow([
             this.slNo++,
             page,
@@ -125,6 +125,9 @@ export class ExcelReport {
     }
 
     async saveReport(){
+        //console.log("Saving report...");
+        //console.log("Total Results:", this.total);
+        //console.log("Worksheet Rows:", this.worksheet.rowCount);
         this.worksheet.getCell("A13").value=this.total;
 
         this.worksheet.getCell("B13").value=this.passed;

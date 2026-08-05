@@ -55,15 +55,10 @@ export class InfoCard{
         await expect(button).toBeVisible();
         await expect(button).toBeEnabled();
 
-        // await button.scrollIntoViewIfNeeded();
-
-        // console.log("Before Click:", this.page.url());
-
         await button.click();
 
-        // console.log("After Click:", this.page.url());
         }
-        //await card.locator('.btn').click();
+       
     
     async verifyCardNavigation(cardDetail) {
 
@@ -89,30 +84,4 @@ export class InfoCard{
         );
     }
 
-    // async verifyCardNavigation(cardDetail){
-    //     await this.clickCardButton(cardDetail);
-
-    //     await this.page.waitForLoadState('domcontentloaded');
-
-    //     await expect.poll(() => this.page.url()).toContain(cardDetail.expectedUrl);
-
-    //     // await Promise.all([
-    //     //     this.page.waitForURL(`**${cardDetail.expectedUrl}**`, {
-    //     //         waitUntil: 'domcontentloaded'
-    //     //     }),
-    //     //     this.clickCardButton(cardDetail)
-    //     // ]);
-    //     // await this.clickCardButton(cardDetail);
-    //     // //await this.clickCardButton(cardDetail);
-    //     // await this.page.waitForLoadState('domcontentloaded');
-    //     // //await this.page.waitForLoadState('networkidle');
-    //     // await expect(this.page).toHaveURL(new RegExp(cardDetail.expectedUrl));
-    //     // //await expect(this.page.url()).toContain(cardDetail.expectedUrl);
-    //     report.addResult(
-    //         `Click on ${cardDetail.button}`,
-    //         cardDetail.button,
-    //         'Pass',
-    //         `Successfully Navigated to ${cardDetail.title} page`
-    //     );
-    // }
 }

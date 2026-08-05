@@ -1,17 +1,32 @@
 [
     {
-        "title":"Swiss Museum Prize 2026"
+        "title":"Swiss Museum Prize 2026",
+        "subtitle":"Competition",
+        "button":"More info",
+        "expectedUrl":"alimentarium-selected-swiss-museum"
     },
     {
-        "title":"Share your story"
+        "title":"Share your story",
+        "subtitle":"Testimonies",
+        "button":"More info",
+        "expectedUrl":"share-your-story"
     },
     {
-        "title":"\"Alima\""
+        "title":"“Alima”",
+        "subtitle":"",
+        "button":"More info",
+        "expectedUrl":"alimentarium-launches-alima"
     },
     {
-        "title":"Today's activities"
+        "title":"Cooking together",
+        "subtitle":"Workshops",
+        "button":"More info",
+        "expectedUrl":"cooking-together"
     },
     {
-        "title":"Open kitchen"
+        "title":"Open kitchen",
+        "subtitle":"Animation",
+        "button":"More info",
+        "expectedUrl":"open-kitchen"
     }
 ]

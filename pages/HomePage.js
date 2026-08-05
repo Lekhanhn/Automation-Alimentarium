@@ -18,13 +18,15 @@ export class HomePage extends BasePage {
     }
 
     async navigate() {
-        console.log("Navigating to Home...");
+        //console.log("Navigating to Home...");
         await super.navigate(process.env.BASE_URL);
-        console.log("Navigation completed.");
+        //console.log("Navigation completed.");
     }
 
     async waitForHomePage() {
+        //console.log("Current URL:", this.page.url());
+        
         await this.page.waitForLoadState('domcontentloaded');
-        await expect(this.header.logo).toBeVisible();
+        await expect(this.header.logo).toBeVisible({timeout: 10000 });
     }
 }

@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-
+import { report } from '../utils/ReportManager.js';
 
 export class MainBanner{
 
@@ -17,12 +17,33 @@ export class MainBanner{
         
     }
 
-    async verifyBanner(){
-        await expect(this.subtitle).toBeVisible();
+    async verifyBanner(banner){
         
-        await expect(this.title).toBeVisible();
+        await expect(this.subtitle).toHaveText(banner.subtitle);
+
+        await expect(this.title).toHaveText(banner.title);
+
         await expect(this.description).toBeVisible();
-        await expect(this.moreInfoButton).toBeVisible();
+
+        await expect(this.moreInfoButton).toHaveText(banner.button);
+
+        report.addResult(
+            'Banner',
+            banner.title,
+            'Pass',
+            'Banner verified'
+        );
+        // await expect(this.subtitle).toBeVisible();
+        
+        // await expect(this.title).toBeVisible();
+        // report.addResult(
+        //             'Banner',
+        //             this.title,
+        //             'Pass',
+        //             `Banner is visible`
+        //         );
+        // await expect(this.description).toBeVisible();
+        // await expect(this.moreInfoButton).toBeVisible();
     }
 
     // async verifySubtitle(title){
@@ -51,11 +72,46 @@ export class MainBanner{
         await expect(this.activeSlider).toHaveCount(1);
     }
 
-    async openBanner(index){
-        await this.sliderDots.nth(index).click();
+    async goToBanner(index, banner){
+        const dot = this.sliderDots.nth(index);
+
+        await expect(dot).toBeVisible();
+
+        await dot.click();
+
+        // Wait until this specific dot becomes active
+        await expect(dot).toHaveClass(/slick-active/, {
+            timeout: 20000
+        });
+
+        // Wait until the banner title is visible
+        await expect(this.title).toBeVisible({
+            timeout: 20000
+        });
+        // const dot = this.sliderDots.nth(index);
+        // await dot.click();
+        // await expect(dot).toHaveClass(/slick-active/);
+        
+        // await expect(this.title).toHaveText(banner.title, {
+        //     timeout: 10000
+        // });
     }
 
-    async clickMoreInfo(){
-        await this.moreInfoButton.click();
+    async verifyBannerNavigation(banner){
+        await Promise.all([
+            this.page.waitForURL(url => url.toString().includes(banner.expectedUrl), {
+                waitUntil: 'domcontentloaded',
+                timeout: 30000
+            }),
+            this.moreInfoButton.click()
+        ]);
+      
+        report.addResult(
+            'Banner Navigation',
+            banner.title,
+            'Pass',
+            'Successfully navigated'
+        );
+
     }
 }
