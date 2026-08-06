@@ -3,14 +3,14 @@ import { ExcelReport } from '../utils/ExcelReport.js';
 
 let startTime;
 
-test.beforeAll(()=>{
+test.beforeAll(() => {
 
     ReportStore.initialize();
     startTime = Date.now();
 
 });
 
-test.afterAll(async()=>{
+test.afterAll(async() => {
 
     const excel = new ExcelReport();
    

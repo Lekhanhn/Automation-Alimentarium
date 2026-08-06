@@ -3,8 +3,8 @@ import { ReportStore } from './ReportStore.js';
 
 export class ExcelReport {
     constructor(){
-        console.log("Excel Report constructor called")
-        console.log("Process ID:", process.pid);
+        // console.log("Excel Report constructor called")
+        // console.log("Process ID:", process.pid);
         this.workbook = new ExcelJS.Workbook();
         this.worksheet = this.workbook.addWorksheet('Link Validation Report');
 
@@ -76,6 +76,10 @@ export class ExcelReport {
             };
             cell.border = this.borderStyle;
         });
+        headerRow.alignment = {
+            horizontal: 'center',
+            vertical: 'middle'
+        };
 
         this.worksheet.columns.forEach(column => {
             column.width = 30;
@@ -196,7 +200,7 @@ export class ExcelReport {
         this.worksheet.getCell("C13").value = this.failed;
 
         await this.workbook.xlsx.writeFile(
-            "./reports/Website_Link_Report.xlsx"
+            "./reports/Alimentairum_Automation_TestReport.xlsx"
         );
 
     }
