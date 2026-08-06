@@ -1,0 +1,302 @@
+[
+  {
+    "page": "Banner",
+    "button": "Competition",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Swiss Museum Prize 2026",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Description",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Banner",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner Navigation",
+    "button": "Swiss Museum Prize 2026",
+    "status": "Pass",
+    "remarks": "Successfully navigated"
+  },
+  {
+    "page": "Banner",
+    "button": "Testimonies",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Share your story",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Description",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Banner",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner Navigation",
+    "button": "Share your story",
+    "status": "Pass",
+    "remarks": "Successfully navigated"
+  },
+  {
+    "page": "Banner",
+    "button": "",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "“Alima”",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Description",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Banner",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner Navigation",
+    "button": "“Alima”",
+    "status": "Pass",
+    "remarks": "Successfully navigated"
+  },
+  {
+    "page": "Banner",
+    "button": "Workshops",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Cooking together",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Description",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Banner",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner Navigation",
+    "button": "Cooking together",
+    "status": "Pass",
+    "remarks": "Successfully navigated"
+  },
+  {
+    "page": "Banner",
+    "button": "Animation",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Open kitchen",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner",
+    "button": "Description",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Banner",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Banner Navigation",
+    "button": "Open kitchen",
+    "status": "Pass",
+    "remarks": "Successfully navigated"
+  },
+  {
+    "page": "Header",
+    "button": "Logo",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Search Icon",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Tickets Button",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Profile Icon",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Language Selector",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Visit Menu",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Learn & Play Menu",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "About us Menu",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Accessibility Menu",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card",
+    "button": "This month at the Alimentarium",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card Header/label",
+    "button": "Activities",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Info Card More info button",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card",
+    "button": "School activities",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card Header/label",
+    "button": "Activities",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Info Card More info button",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card",
+    "button": "Systema Alimentarium",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card Header/label",
+    "button": "Exhibition",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Info Card More info button",
+    "button": "Find out more button",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card",
+    "button": "Garden",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Info Card Header/label",
+    "button": "Exhibition",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Info Card More info button",
+    "button": "See more button",
+    "status": "Pass",
+    "remarks": "Visible"
+  },
+  {
+    "page": "Click on More info",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"This month at the Alimentarium\" page"
+  },
+  {
+    "page": "Click on More info",
+    "button": "More info",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"School activities\" page"
+  },
+  {
+    "page": "Click on Find out more",
+    "button": "Find out more",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"Systema Alimentarium\" page"
+  },
+  {
+    "page": "Click on See more",
+    "button": "See more",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"Garden\" page"
+  }
+]

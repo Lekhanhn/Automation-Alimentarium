@@ -1,5 +1,7 @@
 import { expect } from '@playwright/test';
 import { report } from '../utils/ReportManager.js';
+import { AssertionHelper } from '../helpers/AssertionHelper.js';
+
 
 export class MainBanner{
 
@@ -18,32 +20,41 @@ export class MainBanner{
     }
 
     async verifyBanner(banner){
+
+        await AssertionHelper.verifyText(this.subtitle, banner.subtitle, 'Banner', banner.subtitle);
+
+        await AssertionHelper.verifyText(this.title, banner.title, 'Banner', banner.title);
+
+        await AssertionHelper.verifyVisible(this.description, 'Banner', 'Description');
         
-        await expect(this.subtitle).toHaveText(banner.subtitle);
-
-        await expect(this.title).toHaveText(banner.title);
-
-        await expect(this.description).toBeVisible();
-
-        await expect(this.moreInfoButton).toHaveText(banner.button);
-
-        report.addResult(
-            'Banner',
-            banner.title,
-            'Pass',
-            'Banner verified'
-        );
-        // await expect(this.subtitle).toBeVisible();
+        await AssertionHelper.verifyText(this.moreInfoButton, banner.button, 'Banner', banner.button);
         
-        // await expect(this.title).toBeVisible();
-        // report.addResult(
-        //             'Banner',
-        //             this.title,
-        //             'Pass',
-        //             `Banner is visible`
-        //         );
+        
+        // await expect(this.subtitle).toHaveText(banner.subtitle);
+
+        // await expect(this.title).toHaveText(banner.title);
+
         // await expect(this.description).toBeVisible();
-        // await expect(this.moreInfoButton).toBeVisible();
+
+        // await expect(this.moreInfoButton).toHaveText(banner.button);
+
+        // report.addResult(
+        //     'Banner',
+        //     banner.title,
+        //     'Pass',
+        //     'Banner verified'
+        // );
+            // await expect(this.subtitle).toBeVisible();
+            
+            // await expect(this.title).toBeVisible();
+            // report.addResult(
+            //             'Banner',
+            //             this.title,
+            //             'Pass',
+            //             `Banner is visible`
+            //         );
+            // await expect(this.description).toBeVisible();
+            // await expect(this.moreInfoButton).toBeVisible();
     }
 
     // async verifySubtitle(title){

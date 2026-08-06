@@ -42,6 +42,10 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
+  globalSetup: "./globalSetup.js",
+
+  globalTeardown: "./globalTeardown.js",
+
   /* Configure projects for major browsers */
   projects: [
     {

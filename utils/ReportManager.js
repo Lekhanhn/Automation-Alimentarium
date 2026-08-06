@@ -1,3 +1,18 @@
-import { ExcelReport } from './ExcelReport.js';
+import { ReportStore } from './ReportStore.js';
 
-export const report = new ExcelReport();
+class ReportManager {
+
+    addResult(page, button, status, remarks) {
+
+        ReportStore.addResult({
+            page,
+            button,
+            status,
+            remarks
+        });
+
+    }
+
+}
+
+export const report = new ReportManager();
