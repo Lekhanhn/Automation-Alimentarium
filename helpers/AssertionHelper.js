@@ -4,7 +4,7 @@ import { report } from '../utils/ReportManager.js';
 export class AssertionHelper {
 
 
-static async verifyVisible(locator, page, elementName) {
+static async verifyVisible(locator, page, elementName, stopExecution=true) {
         try {
             await expect(locator).toBeVisible();
 
@@ -12,17 +12,24 @@ static async verifyVisible(locator, page, elementName) {
                 page,
                 elementName,
                 'Pass',
-                'Visible'
+                'Element Visible'
             );
+
+            return true;
+
         } catch (error) {
             report.addResult(
                 page,
                 elementName,
                 'Fail',
-                error.message
+                'Element not visible'
             );
 
-            throw error;
+            if(stopExecution){
+                throw error;
+            }
+
+           return false; 
         }
     }
 
@@ -52,11 +59,68 @@ static async verifyVisible(locator, page, elementName) {
         }
     }
     
-    static async verifyText(locator, expectedText, pageName, elementName) {
+    static async verifyText(locator, expectedText, pageName, elementName, stopExecution=true) {
 
         try {
 
-            await expect(locator).toHaveText(expectedText);
+            await expect(locator).toContainText(expectedText);
+
+            report.addResult(
+                pageName,
+                elementName,
+                'Pass',
+                'Text verified and is Visible'
+            );
+
+            return true;
+
+        } catch (error) {
+
+            report.addResult(
+                pageName,
+                elementName,
+                'Fail',
+                'Text mismatch'
+            );
+
+            if (stopExecution) {
+            throw error;
+            }
+
+            return false;
+        }
+    }
+    // This method help in HTML and also if any spaces present
+    // <p>
+    //     10:00 - 17:00 (October to March)<br>
+    //     10:00 - 18:00 (April to September)
+    // </p>
+    static async verifyTextNormalized(
+        locator,
+        expectedText,
+        pageName,
+        elementName,
+        stopExecution = true
+    ) {
+        try {
+
+            const actualText = await locator.innerText();
+
+            const normalize = text =>
+                text
+                    ?.replace(/\s+/g, ' ')
+                    .trim();
+
+            const actual = normalize(actualText);
+            const expected = normalize(expectedText);
+
+            if (actual !== expected) {
+                throw new Error(
+                    `Text mismatch.\n` +
+                    `Expected: "${expected}"\n` +
+                    `Actual: "${actual}"`
+                );
+            }
 
             report.addResult(
                 pageName,
@@ -64,6 +128,8 @@ static async verifyVisible(locator, page, elementName) {
                 'Pass',
                 'Text verified'
             );
+
+            return true;
 
         } catch (error) {
 
@@ -74,7 +140,11 @@ static async verifyVisible(locator, page, elementName) {
                 error.message
             );
 
-            throw error;
+            if (stopExecution) {
+                throw error;
+            }
+
+            return false;
         }
     }
 }

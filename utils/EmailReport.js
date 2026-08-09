@@ -23,19 +23,33 @@ export async function sendReport() {
 
         cc: process.env.EMAIL_CC,
 
+        //bcc: process.env.EMAIL_BCC,
+
         subject: 'Playwright Automation Report - Project: Alimentarium',
 
-        text: 'Please find the attached automation execution report.',
+        html: `
+        
+        <p>Hello Team,</p>
+
+        <p>Please find the attached <b>Automation Execution Report</b>.</p>
+
+        <br/>
+
+        <p>
+        Regards,<br>
+        Playwright Automation Framework
+        </p> `
+        ,
 
         attachments: [
             {
-                filename: 'Alimentairum_Automation_TestReport.xlsx',
-                path: path.resolve('./reports/Alimentairum_Automation_TestReport.xlsx')
+                filename: 'Alimentarium_TestReport.xlsx',
+                path: path.resolve('./reports/Alimentarium_TestReport.xlsx')
             }
         ]
 
     });
 
-    console.log("Email sent successfully.");
+    //console.log("Email sent successfully.");
 
 }

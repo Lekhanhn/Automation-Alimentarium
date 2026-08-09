@@ -16,62 +16,22 @@ export class MainBanner{
 
         this.sliderDots = page.locator('.slick-dots li');
         this.activeSlider = page.locator('.slick-dots li.slick-active');
+        this.slNo=1;
         
     }
 
     async verifyBanner(banner){
 
-        await AssertionHelper.verifyText(this.subtitle, banner.subtitle, 'Banner', banner.subtitle);
+        await AssertionHelper.verifyText(this.title, banner.title, `Verify Banner ${this.slNo++} `, `Title: ${banner.title}`, false);
 
-        await AssertionHelper.verifyText(this.title, banner.title, 'Banner', banner.title);
 
-        await AssertionHelper.verifyVisible(this.description, 'Banner', 'Description');
+        await AssertionHelper.verifyText(this.subtitle, banner.subtitle, ``, `Subtitle: ${banner.subtitle}`, false);
+
+        await AssertionHelper.verifyVisible(this.description, '', 'Verify Banner Description', false);
         
-        await AssertionHelper.verifyText(this.moreInfoButton, banner.button, 'Banner', banner.button);
-        
-        
-        // await expect(this.subtitle).toHaveText(banner.subtitle);
+        await AssertionHelper.verifyVisible(this.moreInfoButton, '',`${banner.button} button`, false);
 
-        // await expect(this.title).toHaveText(banner.title);
-
-        // await expect(this.description).toBeVisible();
-
-        // await expect(this.moreInfoButton).toHaveText(banner.button);
-
-        // report.addResult(
-        //     'Banner',
-        //     banner.title,
-        //     'Pass',
-        //     'Banner verified'
-        // );
-            // await expect(this.subtitle).toBeVisible();
-            
-            // await expect(this.title).toBeVisible();
-            // report.addResult(
-            //             'Banner',
-            //             this.title,
-            //             'Pass',
-            //             `Banner is visible`
-            //         );
-            // await expect(this.description).toBeVisible();
-            // await expect(this.moreInfoButton).toBeVisible();
     }
-
-    // async verifySubtitle(title){
-    //     const subtitle =  this.subtitle.filter({
-    //         has: this.page.locator('h2',{ hasText: title})
-    //     })
-
-    //     await expect(subtitle).toBeVisible()
-    // }
-
-    // async verifyTitle(title){
-    //     const bannertitle  =  this.title.filter({
-    //         has: this.page.locator('h2',{ hasText: title})
-    //     })
-
-    //     await expect(bannertitle).toBeVisible()
-    // }
 
     async verifyBannerTitle(expectedTitle) {
         await expect(this.title).toHaveText(expectedTitle);
@@ -99,13 +59,7 @@ export class MainBanner{
         await expect(this.title).toBeVisible({
             timeout: 20000
         });
-        // const dot = this.sliderDots.nth(index);
-        // await dot.click();
-        // await expect(dot).toHaveClass(/slick-active/);
         
-        // await expect(this.title).toHaveText(banner.title, {
-        //     timeout: 10000
-        // });
     }
 
     async verifyBannerNavigation(banner){
@@ -118,10 +72,10 @@ export class MainBanner{
         ]);
       
         report.addResult(
-            'Banner Navigation',
-            banner.title,
+            ``,
+            `Click on ${banner.button} button`,
             'Pass',
-            'Successfully navigated'
+            `Successfully navigated to ${banner.title} page`
         );
 
     }

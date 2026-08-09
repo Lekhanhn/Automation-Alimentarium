@@ -8,6 +8,9 @@ export class InfoCard{
         this.page = page;
 
         this.cards = page.locator('.home-content-frame .box')
+
+        this.slNo=1;
+        this.series=1;
        
     }
     async verifyCard(cardDetail) {
@@ -16,38 +19,15 @@ export class InfoCard{
             has: this.page.getByRole('heading', { name: cardDetail.title, exact: true })
         });
           
-        await AssertionHelper.verifyVisible(card, 'Info Card', cardDetail.title)
-        // await expect(card).toBeVisible();
-        // report.addResult(
-        //     'Info Card',
-        //     cardDetail.title,
-        //     'Pass',
-        //     `Info Card ${cardDetail.title} is visible`
-        // );
+        await AssertionHelper.verifyVisible(card, `Info Card ${this.slNo++}`, `Title: ${cardDetail.title}`)
 
-        await AssertionHelper.verifyText(card.locator('.label'), cardDetail.header, 'Info Card Header/label', cardDetail.header)
-
-        // await expect(card.locator('.label')).toHaveText(cardDetail.header);
-        // report.addResult(
-        //     'Info Card Header/label ',
-        //     cardDetail.header,
-        //     'Pass',
-        //     `${cardDetail.header} header is visible`
-        // );
+        await AssertionHelper.verifyText(card.locator('.label'), cardDetail.header, '', `Header: ${cardDetail.header}`)
 
         await AssertionHelper.verifyVisible(
                 card.getByRole('link', { name: cardDetail.button }) , 
-                'Info Card More info button' , 
+                '' , 
                 `${cardDetail.button} button`
             )
-
-        // await expect(card.getByRole('link', { name: cardDetail.button })).toBeVisible();
-        // report.addResult(
-        //     'Info Card More info button ',
-        //     `${cardDetail.button} button`,
-        //     'Pass',
-        //     `${cardDetail.button} Button is visible`
-        // );
 
     }
 
@@ -87,8 +67,8 @@ export class InfoCard{
         ).toContain(cardDetail.expectedUrl);
 
         report.addResult(
-            `Click on ${cardDetail.button}`,
-            cardDetail.button,
+            `Info Card ${this.series++}`,
+            `Click on ${cardDetail.button} button`,
             'Pass',
             `Successfully navigated to "${cardDetail.title}" page`
         );

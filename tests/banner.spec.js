@@ -18,7 +18,7 @@ test.describe('Homepage Banners', () => {
             }
 
             await test.step(`Verify ${banners[i].title}`, async () => {
-
+                
                 await homePage.mainBanner.goToBanner(i);
 
                 await homePage.mainBanner.verifyBanner(banners[i]);
