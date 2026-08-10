@@ -29,7 +29,7 @@ export class Footer{
     }
 
     async verifySubscribeNow(subscribeNowData){
-        await AssertionHelper.verifyVisible(this.subscribeNow, 'HomePage: Footer Section', 'Subscribe Now', false);
+        await AssertionHelper.verifyVisible(this.subscribeNow, 'Footer : Subscribe Now section', 'Subscribe Now', false);
         
             await this.subscribeEmailField.fill(subscribeNowData.input);
             
@@ -85,7 +85,7 @@ export class Footer{
 
         await AssertionHelper.verifyVisible(
             section,
-            '',
+            `Footer ${sectionTitle} section`,
             `${sectionTitle} section`,
             false
         );
@@ -110,7 +110,7 @@ export class Footer{
         await AssertionHelper.verifyText(
             section.locator('h3 .opener'),
             sectionData.title,
-            `HomePage: Footer ${sectionData.title} section` ,
+            `Footer ${sectionData.title} section` ,
             `${sectionData.title} heading`,
             false
         );
@@ -124,7 +124,7 @@ export class Footer{
             await AssertionHelper.verifyText(
                 section.locator('h4'),
                 sectionData.subHeading,
-                '',
+                `Footer ${sectionData.title} section`,
                 `${sectionData.title} sub-heading`,
                 false
             );
@@ -138,7 +138,7 @@ export class Footer{
             await AssertionHelper.verifyTextNormalized(
                 textLocator,
                 sectionData.text,
-                '',
+                `Footer ${sectionData.title} section`,
                 `${sectionData.title} information`,
                 false
             );
@@ -173,7 +173,7 @@ export class Footer{
         // Verify link is visible
         await AssertionHelper.verifyVisible(
             link,
-            '',
+            `Footer ${sectionTitle} section`,
             `${sectionTitle} - ${item.text}`,
             false
         );
@@ -182,7 +182,7 @@ export class Footer{
         await AssertionHelper.verifyText(
             link,
             item.text,
-            '',
+            `Footer ${sectionTitle} section`,
             `${sectionTitle} - ${item.text} text`,
             false
         );
@@ -203,7 +203,7 @@ export class Footer{
             const { report } = await import('../utils/ReportManager.js');
 
             report.addResult(
-                '',
+                `Footer ${sectionTitle} section`,
                 `${sectionTitle} - ${item.text} URL`,
                 'Pass',
                 `Correct URL: ${actualHref}`
@@ -214,7 +214,7 @@ export class Footer{
             const { report } = await import('../utils/ReportManager.js');
 
             report.addResult(
-                '',
+                `Footer ${sectionTitle} section`,
                 `${sectionTitle} - ${item.text} URL`,
                 'Fail',
                 error.message
@@ -238,7 +238,7 @@ export class Footer{
             await AssertionHelper.verifyText(
                 nameCell,
                 price.name,
-                '',
+                `Footer ${sectionData.title} section`,
                 `${sectionData.title} - ${price.name}`,
                 false
             );
@@ -246,7 +246,7 @@ export class Footer{
             await AssertionHelper.verifyText(
                 priceCell,
                 price.price,
-                '',
+                `Footer ${sectionData.title} section`,
                 `${sectionData.title} - ${price.name} price`,
                 false
             );
@@ -259,7 +259,7 @@ export class Footer{
         await AssertionHelper.verifyTextNormalized(
             this.copyright,
             subFooterData.copyright,
-            'Homepage: Sub Footer section',
+            'Sub Footer section',
             'Copyright',
             false
         );
@@ -277,7 +277,7 @@ export class Footer{
             // Verify link visible
             await AssertionHelper.verifyVisible(
                 link,
-                '',
+                'Sub Footer section',
                 `${linkData.text} link`,
                 false
             );
@@ -286,7 +286,7 @@ export class Footer{
             await AssertionHelper.verifyText(
                 link,
                 linkData.text,
-                '',
+                'Sub Footer section',
                 `${linkData.text} text`,
                 false
             );
@@ -309,7 +309,7 @@ export class Footer{
                 }
 
                 report.addResult(
-                    '',
+                    'Sub Footer section',
                     `${linkData.text} URL`,
                     'Pass',
                     `Correct URL: ${actualHref}`
@@ -318,7 +318,7 @@ export class Footer{
             } catch (error) {
 
                 report.addResult(
-                    '',
+                    'Sub Footer section',
                     `${linkData.text} URL`,
                     'Fail',
                     error.message

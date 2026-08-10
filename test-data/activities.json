@@ -1,0 +1,43 @@
+{
+    "activities": [
+        {
+            "title": "Children’s birthday parties",
+            "category": "Workshops for kids",
+            "date": "Wednesdays, Saturdays and Sundays",
+            "age": "Groups, from 6 to 12 years old",
+            "price": "CHF 350 per group",
+            "description": "Is it your birthday? Put on your apron and come prepare a healthy and tasty snack with your friends in a kitchen specially designed for children! You’ll leave with a small gift, some recipes, and lots of happy memories!",
+            "expectedUrl": "/en/activities/childrens-birthday-parties",
+            "bookButton": "Book now"
+        },
+        {
+            "title": "Cooking workshops for school groups",
+            "category": "Workshops for school groups",
+            "date": "Tuesdays, Thursdays and Fridays",
+            "age": "Groups, from 6 to 12 years old",
+            "price": "CHF 360 per group",
+            "description": "The whole class gets cooking to prepare a complete menu in our kitchen specially designed for children.",
+            "expectedUrl": "/en/activities/cooking-workshops-school-groups",
+            "bookButton": "Book now"
+        },
+        {
+            "title": "Cooking together",
+            "category": "Workshops",
+            "date": "According to calendar",
+            "age": "From 6 years old",
+            "price": "CHF 25 per participant",
+            "description": "Take every opportunity to create seasonal specialties in full collaboration with your loved ones!",
+            "expectedUrl": "/en/activities/cooking-together",
+            "bookButton": "Book now"
+        }
+    ],
+
+    "section": {
+        "title": "What's on?",
+        "infoSubtitle": "Workshops",
+        "infoTitle": "Roll up your sleeves!",
+        "infoText": "Sharing knowledge and skills is what we do. With passion. That’s why the Alimentarium organises daily culinary workshops and classes led by qualified chefs.",
+        "allActivities": "All activities",
+        "allActivitiesUrl": "/en/plan-your-visit/workshops"
+    }
+}

@@ -14,19 +14,20 @@ export class InfoCard{
        
     }
     async verifyCard(cardDetail) {
-       
+        let number = this.slNo++;
         const card = this.cards.filter({
             has: this.page.getByRole('heading', { name: cardDetail.title, exact: true })
         });
           
-        await AssertionHelper.verifyVisible(card, `Info Card ${this.slNo++}`, `Title: ${cardDetail.title}`)
+        await AssertionHelper.verifyVisible(card, `Info Card ${number}`, `Title: ${cardDetail.title}`,false)
 
-        await AssertionHelper.verifyText(card.locator('.label'), cardDetail.header, '', `Header: ${cardDetail.header}`)
+        await AssertionHelper.verifyText(card.locator('.label'), cardDetail.header, `Info Card ${number}`, `Header: ${cardDetail.header}`,false)
 
         await AssertionHelper.verifyVisible(
                 card.getByRole('link', { name: cardDetail.button }) , 
-                '' , 
-                `${cardDetail.button} button`
+                `Info Card ${number}` , 
+                `${cardDetail.button} button`,
+                false
             )
 
     }
@@ -51,7 +52,7 @@ export class InfoCard{
        
     
     async verifyCardNavigation(cardDetail) {
-
+        let number = this.series++;
         await this.clickCardButton(cardDetail);
 
         // Wait until the DOM is ready
@@ -67,7 +68,7 @@ export class InfoCard{
         ).toContain(cardDetail.expectedUrl);
 
         report.addResult(
-            `Info Card ${this.series++}`,
+            `Info Card ${number} more info button`,
             `Click on ${cardDetail.button} button`,
             'Pass',
             `Successfully navigated to "${cardDetail.title}" page`
