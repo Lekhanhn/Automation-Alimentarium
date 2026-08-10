@@ -9,7 +9,7 @@ class ReportManager {
             button,
             status,
             remarks
-        });
+            });
 
     }
 

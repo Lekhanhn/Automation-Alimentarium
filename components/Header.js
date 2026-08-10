@@ -25,7 +25,7 @@ export class Header{
             has: this.page.getByRole('link', {name: menu.menu, exact:true })
         });
        
-        await AssertionHelper.verifyVisible(menuName, 'Header',`${menu.menu} Menu`)
+        await AssertionHelper.verifyVisible(menuName, 'Header',`${menu.menu} Menu`,false)
         // await expect(menuName).toBeVisible();
         // report.addResult(
         //     'Header',
@@ -37,15 +37,15 @@ export class Header{
 
     async verifyHeader() {
 
-        await AssertionHelper.verifyVisible(this.logo, 'Header', 'Logo');
+        await AssertionHelper.verifyVisible(this.logo, 'Header', 'Logo', false);
 
-        await AssertionHelper.verifyVisible(this.searchIcon,'Header','Search Icon');
+        await AssertionHelper.verifyVisible(this.searchIcon,'Header','Search Icon',false);
 
-        await AssertionHelper.verifyVisible(this.ticketButton,'Header','Tickets Button');
+        await AssertionHelper.verifyVisible(this.ticketButton,'Header','Tickets Button',false);
 
-        await AssertionHelper.verifyVisible(this.profileIcon,'Header','Profile Icon');
+        await AssertionHelper.verifyVisible(this.profileIcon,'Header','Profile Icon',false);
 
-        await AssertionHelper.verifyVisible(this.languageSelector,'Header','Language Selector');
+        await AssertionHelper.verifyVisible(this.languageSelector,'Header','Language Selector',false);
     }
 
     //async verifyHeader(){

@@ -5,6 +5,8 @@ import { MainBanner } from "../components/MainBanner.js";
 import { CookieBanner } from '../components/cookieBanner.js';
 import { expect } from '@playwright/test'
 import { Footer } from "../components/Footer.js";
+import { Activities } from "../components/Activities.js";
+
 
 
 export class HomePage extends BasePage {
@@ -17,6 +19,7 @@ export class HomePage extends BasePage {
         this.mainBanner = new MainBanner(page);
         this.infoCard = new InfoCard(page)
         this.footer = new Footer(page)
+        this.activities = new Activities(page)
     }
 
     async navigate() {

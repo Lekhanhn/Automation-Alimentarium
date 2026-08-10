@@ -17,19 +17,21 @@ export class MainBanner{
         this.sliderDots = page.locator('.slick-dots li');
         this.activeSlider = page.locator('.slick-dots li.slick-active');
         this.slNo=1;
+        this.link=1;
         
     }
 
     async verifyBanner(banner){
+        let number = this.slNo++;
 
-        await AssertionHelper.verifyText(this.title, banner.title, `Verify Banner ${this.slNo++} `, `Title: ${banner.title}`, false);
+        await AssertionHelper.verifyText(this.title, banner.title, `Verify Banner ${number}`, `Title: ${banner.title}`, false);
 
 
-        await AssertionHelper.verifyText(this.subtitle, banner.subtitle, ``, `Subtitle: ${banner.subtitle}`, false);
+        await AssertionHelper.verifyText(this.subtitle, banner.subtitle, `Verify Banner ${number}`, `Subtitle: ${banner.subtitle}`, false);
 
-        await AssertionHelper.verifyVisible(this.description, '', 'Verify Banner Description', false);
+        await AssertionHelper.verifyVisible(this.description, `Verify Banner ${number}`, 'Verify Banner Description', false);
         
-        await AssertionHelper.verifyVisible(this.moreInfoButton, '',`${banner.button} button`, false);
+        await AssertionHelper.verifyVisible(this.moreInfoButton, `Verify Banner ${number}`,`${banner.button} button`, false);
 
     }
 
@@ -63,6 +65,7 @@ export class MainBanner{
     }
 
     async verifyBannerNavigation(banner){
+        let number = this.link++;
         await Promise.all([
             this.page.waitForURL(url => url.toString().includes(banner.expectedUrl), {
                 waitUntil: 'domcontentloaded',
@@ -72,7 +75,7 @@ export class MainBanner{
         ]);
       
         report.addResult(
-            ``,
+            `Verify Banner ${number}`,
             `Click on ${banner.button} button`,
             'Pass',
             `Successfully navigated to ${banner.title} page`

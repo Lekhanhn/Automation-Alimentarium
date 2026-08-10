@@ -69,7 +69,7 @@ static async verifyVisible(locator, page, elementName, stopExecution=true) {
                 pageName,
                 elementName,
                 'Pass',
-                'Text verified and is Visible'
+                'Text verified and is Visible',
             );
 
             return true;
@@ -80,7 +80,7 @@ static async verifyVisible(locator, page, elementName, stopExecution=true) {
                 pageName,
                 elementName,
                 'Fail',
-                'Text mismatch'
+                `Expected: "${expectedText}" | Actual: "${await locator.textContent()}"`
             );
 
             if (stopExecution) {

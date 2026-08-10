@@ -37,7 +37,7 @@ export async function sendReport() {
 
         <p>
         Regards,<br>
-        Playwright Automation Framework
+        QA Team
         </p> `
         ,
 

@@ -1,563 +1,5 @@
 [
   {
-    "page": "Verify Banner 1 ",
-    "button": "Title: Swiss Museum Prize 2026",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Subtitle: Competition",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Swiss Museum Prize 2026 page"
-  },
-  {
-    "page": "Verify Banner 2 ",
-    "button": "Title: Share your story",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Subtitle: Testimonies",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Share your story page"
-  },
-  {
-    "page": "Verify Banner 3 ",
-    "button": "Title: “Alima”",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Subtitle: ",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to “Alima” page"
-  },
-  {
-    "page": "Verify Banner 4 ",
-    "button": "Title: Cooking together",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Subtitle: Workshops",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Cooking together page"
-  },
-  {
-    "page": "Verify Banner 5 ",
-    "button": "Title: Open kitchen",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Subtitle: Animation",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Open kitchen page"
-  },
-  {
-    "page": "HomePage: Footer Section",
-    "button": "Subscribe Now",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Footer : Subscribe Now section",
-    "button": "Click on Submit",
-    "status": "Pass",
-    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=svVQ60ckw-g3NhS8kniQF9Jup6NWJ_is8JT08mptLsw"
-  },
-  {
-    "page": "HomePage: Footer About us section",
-    "button": "About us heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "About us section",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Mission",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Mission text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Mission URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/manifesto"
-  },
-  {
-    "page": "",
-    "button": "About us - Foundation",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Foundation text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Foundation URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/foundation"
-  },
-  {
-    "page": "",
-    "button": "About us - Our partners",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Our partners text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "About us - Our partners URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/our-partners"
-  },
-  {
-    "page": "HomePage: Footer Contact section",
-    "button": "Contact heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Contact section",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Contact - Contact form",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Contact - Contact form text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Contact - Contact form URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/contact-us"
-  },
-  {
-    "page": "HomePage: Footer Opening hours section",
-    "button": "Opening hours heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Opening hours section",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Opening hours sub-heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Opening hours information",
-    "status": "Pass",
-    "remarks": "Text verified"
-  },
-  {
-    "page": "",
-    "button": "Opening hours - Opening hours",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Opening hours - Opening hours text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Opening hours - Opening hours URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/opening-hours-entrance-fees"
-  },
-  {
-    "page": "HomePage: Footer Getting here section",
-    "button": "Getting here heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Getting here section",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Getting here sub-heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Getting here information",
-    "status": "Pass",
-    "remarks": "Text verified"
-  },
-  {
-    "page": "",
-    "button": "Getting here - Getting here",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Getting here - Getting here text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Getting here - Getting here URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/getting-here"
-  },
-  {
-    "page": "HomePage: Footer Entrance fees section",
-    "button": "Entrance fees heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees section",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees sub-heading",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - All our rates",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - All our rates text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - All our rates URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/opening-hours-entrance-fees"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Get Your Tickets",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Get Your Tickets text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Get Your Tickets URL",
-    "status": "Pass",
-    "remarks": "Correct URL: https://alimentarium.shop.secutix.com/content?lang=en"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Adult",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Adult price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Reduced rate",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Reduced rate price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Child 6-15",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Child 6-15 price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Child 0-5",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Entrance fees - Child 0-5 price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Homepage: Sub Footer section",
-    "button": "Copyright",
-    "status": "Pass",
-    "remarks": "Text verified"
-  },
-  {
-    "page": "",
-    "button": "Terms and Conditions link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Terms and Conditions text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Terms and Conditions URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/general-terms-and-conditions-sale"
-  },
-  {
-    "page": "",
-    "button": "Data protection link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Data protection text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Data protection URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /basic-page/data-protection"
-  },
-  {
-    "page": "",
-    "button": "Jobs link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Jobs text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Jobs URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/join-alimentarium"
-  },
-  {
-    "page": "",
-    "button": "Press Room link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Press Room text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Press Room URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/press-room"
-  },
-  {
-    "page": "",
-    "button": "Museum Map link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Museum Map text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Museum Map URL",
-    "status": "Pass",
-    "remarks": "Correct URL: https://www.alimentarium.org/sites/default/files/media/doc/2025-08/Plan%20Mus%C3%A9e%202025.pdf"
-  },
-  {
-    "page": "",
-    "button": "Visitor Regulations link",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "",
-    "button": "Visitor Regulations text",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "",
-    "button": "Visitor Regulations URL",
-    "status": "Pass",
-    "remarks": "Correct URL: /en/basic-page/visitor-regulations"
-  },
-  {
     "page": "Header",
     "button": "Logo",
     "status": "Pass",
@@ -612,19 +54,169 @@
     "remarks": "Element Visible"
   },
   {
+    "page": "Verify Banner 1",
+    "button": "Title: Swiss Museum Prize 2026",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Subtitle: Competition",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Swiss Museum Prize 2026 page"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Title: Share your story",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Subtitle: Testimonies",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Share your story page"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Title: “Alima”",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Subtitle: ",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to “Alima” page"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Title: Cooking together",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Subtitle: Workshops",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Cooking together page"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Title: Open kitchen",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Subtitle: Animation",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Open kitchen page"
+  },
+  {
     "page": "Info Card 1",
     "button": "Title: This month at the Alimentarium",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 1",
     "button": "Header: Activities",
     "status": "Pass",
     "remarks": "Text verified and is Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 1",
     "button": "More info button",
     "status": "Pass",
     "remarks": "Element Visible"
@@ -636,13 +228,13 @@
     "remarks": "Element Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 2",
     "button": "Header: Activities",
     "status": "Pass",
     "remarks": "Text verified and is Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 2",
     "button": "More info button",
     "status": "Pass",
     "remarks": "Element Visible"
@@ -654,13 +246,13 @@
     "remarks": "Element Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 3",
     "button": "Header: Exhibition",
     "status": "Pass",
     "remarks": "Text verified and is Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 3",
     "button": "Find out more button",
     "status": "Pass",
     "remarks": "Element Visible"
@@ -672,39 +264,693 @@
     "remarks": "Element Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 4",
     "button": "Header: Exhibition",
     "status": "Pass",
     "remarks": "Text verified and is Visible"
   },
   {
-    "page": "",
+    "page": "Info Card 4",
     "button": "See more button",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Info Card 1",
+    "page": "Info Card 1 more info button",
     "button": "Click on More info button",
     "status": "Pass",
     "remarks": "Successfully navigated to \"This month at the Alimentarium\" page"
   },
   {
-    "page": "Info Card 2",
+    "page": "Info Card 2 more info button",
     "button": "Click on More info button",
     "status": "Pass",
     "remarks": "Successfully navigated to \"School activities\" page"
   },
   {
-    "page": "Info Card 3",
+    "page": "Info Card 3 more info button",
     "button": "Click on Find out more button",
     "status": "Pass",
     "remarks": "Successfully navigated to \"Systema Alimentarium\" page"
   },
   {
-    "page": "Info Card 4",
+    "page": "Info Card 4 more info button",
     "button": "Click on See more button",
     "status": "Pass",
     "remarks": "Successfully navigated to \"Garden\" page"
+  },
+  {
+    "page": "WaterMark- What's On",
+    "button": "What's on? Text",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "WaterMark- What's On",
+    "button": "Section Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Category",
+    "status": "Fail",
+    "remarks": "Expected: \"Workshops for kids\" | Actual: \"\nWorshops for kids\""
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Category",
+    "status": "Fail",
+    "remarks": "Expected: \"Workshops for school groups\" | Actual: \"\nWorshops for school groups\""
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Category",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 1 Book Now",
+    "button": "Children’s birthday parties - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/childrens-birthday-parties"
+  },
+  {
+    "page": "Activity 2 Book Now",
+    "button": "Cooking workshops for school groups - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-workshops-school-groups"
+  },
+  {
+    "page": "Activity 3 Book Now",
+    "button": "Cooking together - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-together"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Subtitle",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Subtitle",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/plan-your-visit/workshops"
+  },
+  {
+    "page": "Footer : Subscribe Now section",
+    "button": "Subscribe Now",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer : Subscribe Now section",
+    "button": "Click on Submit",
+    "status": "Pass",
+    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=A-mAEr25QbH86q0HkfNxOxEscNUzp_s0N5VyfI29bv0"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us section",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Mission",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Mission text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Mission URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/manifesto"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Foundation",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Foundation text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Foundation URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/foundation"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Our partners",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Our partners text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer About us section",
+    "button": "About us - Our partners URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/our-partners"
+  },
+  {
+    "page": "Footer Contact section",
+    "button": "Contact heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Contact section",
+    "button": "Contact section",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Contact section",
+    "button": "Contact - Contact form",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Contact section",
+    "button": "Contact - Contact form text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Contact section",
+    "button": "Contact - Contact form URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/contact-us"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours section",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours sub-heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours information",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours - Opening hours",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours - Opening hours text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Opening hours section",
+    "button": "Opening hours - Opening hours URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/opening-hours-entrance-fees"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here section",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here sub-heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here information",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here - Getting here",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here - Getting here text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Getting here section",
+    "button": "Getting here - Getting here URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/getting-here"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees section",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees sub-heading",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - All our rates",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - All our rates text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - All our rates URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/opening-hours-entrance-fees"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Get Your Tickets",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Get Your Tickets text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Get Your Tickets URL",
+    "status": "Pass",
+    "remarks": "Correct URL: https://alimentarium.shop.secutix.com/content?lang=en"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Adult",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Adult price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Reduced rate",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Reduced rate price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Child 6-15",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Child 6-15 price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Child 0-5",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Footer Entrance fees section",
+    "button": "Entrance fees - Child 0-5 price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Copyright",
+    "status": "Pass",
+    "remarks": "Text verified"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Terms and Conditions link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Terms and Conditions text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Terms and Conditions URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/general-terms-and-conditions-sale"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Data protection link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Data protection text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Data protection URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /basic-page/data-protection"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Jobs link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Jobs text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Jobs URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/join-alimentarium"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Press Room link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Press Room text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Press Room URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/press-room"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Museum Map link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Museum Map text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Museum Map URL",
+    "status": "Pass",
+    "remarks": "Correct URL: https://www.alimentarium.org/sites/default/files/media/doc/2025-08/Plan%20Mus%C3%A9e%202025.pdf"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Visitor Regulations link",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Visitor Regulations text",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Sub Footer section",
+    "button": "Visitor Regulations URL",
+    "status": "Pass",
+    "remarks": "Correct URL: /en/basic-page/visitor-regulations"
   }
 ]
