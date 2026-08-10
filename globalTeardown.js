@@ -12,6 +12,6 @@ export default async () => {
     excel.setBrowser("chromium");
     excel.setExecutionTime(totalTime);
     await excel.saveReport();
-    await sendReport();
+    //await sendReport();
 
 };

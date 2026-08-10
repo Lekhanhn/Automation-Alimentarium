@@ -7,15 +7,23 @@ test.describe('Homepage: Footer verification', () => {
     
     test('Verify Footer sections', async({ homePage }) => {
 
+        await test.step('Verify Back to Top ', async() => {
+            await homePage.footer.verifyBackToTop();
+
+        })
+
+        await test.step('Verify Social Media Links', async () => {
+
+                await homePage.footer.verifySocialLinks(footerData.socialLinks);
+
+            });
+
         await test.step('Verify Subscribe section', async () => {
             await homePage.footer.verifySubscribeNow(footerData.subscribeNow)
 
 
         })
-
-
         
-
         for (const section of footerData.sections) {
             await test.step(
                 `Verify "${section.title}" footer section`,
@@ -26,6 +34,7 @@ test.describe('Homepage: Footer verification', () => {
                 }
             );
         }
+        
 
     });
 

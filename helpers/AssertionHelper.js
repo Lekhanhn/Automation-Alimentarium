@@ -80,7 +80,7 @@ static async verifyVisible(locator, page, elementName, stopExecution=true) {
                 pageName,
                 elementName,
                 'Fail',
-                `Expected: "${expectedText}" | Actual: "${await locator.textContent()}"`
+                `Text Mismatch`
             );
 
             if (stopExecution) {

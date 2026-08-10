@@ -1,549 +1,63 @@
 [
   {
-    "page": "Header",
-    "button": "Logo",
+    "page": "Footer",
+    "button": "Back to Top",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Header",
-    "button": "Search Icon",
+    "page": "Footer",
+    "button": "Back to Top - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully returned to top of page"
+  },
+  {
+    "page": "Footer - Social Media Links",
+    "button": "facebook",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Header",
-    "button": "Tickets Button",
+    "page": "Footer - Social Media Links",
+    "button": "facebook",
+    "status": "Pass",
+    "remarks": "Correct URL: http://www.facebook.com/alimentarium"
+  },
+  {
+    "page": "Footer - Social Media Links",
+    "button": "instagram",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Header",
-    "button": "Profile Icon",
+    "page": "Footer - Social Media Links",
+    "button": "instagram",
+    "status": "Pass",
+    "remarks": "Correct URL: https://www.instagram.com/alimentarium/"
+  },
+  {
+    "page": "Footer - Social Media Links",
+    "button": "youtube",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Header",
-    "button": "Language Selector",
+    "page": "Footer - Social Media Links",
+    "button": "youtube",
+    "status": "Pass",
+    "remarks": "Correct URL: https://www.youtube.com/user/alimentariumvevey"
+  },
+  {
+    "page": "Footer - Social Media Links",
+    "button": "tripadvisor",
     "status": "Pass",
     "remarks": "Element Visible"
   },
   {
-    "page": "Header",
-    "button": "Visit Menu",
+    "page": "Footer - Social Media Links",
+    "button": "tripadvisor",
     "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Header",
-    "button": "Learn & Play Menu",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Header",
-    "button": "About us Menu",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Header",
-    "button": "Accessibility Menu",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 1",
-    "button": "Title: Swiss Museum Prize 2026",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 1",
-    "button": "Subtitle: Competition",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 1",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 1",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 1",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Swiss Museum Prize 2026 page"
-  },
-  {
-    "page": "Verify Banner 2",
-    "button": "Title: Share your story",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 2",
-    "button": "Subtitle: Testimonies",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 2",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 2",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 2",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Share your story page"
-  },
-  {
-    "page": "Verify Banner 3",
-    "button": "Title: “Alima”",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 3",
-    "button": "Subtitle: ",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 3",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 3",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 3",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to “Alima” page"
-  },
-  {
-    "page": "Verify Banner 4",
-    "button": "Title: Cooking together",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 4",
-    "button": "Subtitle: Workshops",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 4",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 4",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 4",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Cooking together page"
-  },
-  {
-    "page": "Verify Banner 5",
-    "button": "Title: Open kitchen",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 5",
-    "button": "Subtitle: Animation",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Verify Banner 5",
-    "button": "Verify Banner Description",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 5",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Verify Banner 5",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to Open kitchen page"
-  },
-  {
-    "page": "Info Card 1",
-    "button": "Title: This month at the Alimentarium",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 1",
-    "button": "Header: Activities",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Card 1",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 2",
-    "button": "Title: School activities",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 2",
-    "button": "Header: Activities",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Card 2",
-    "button": "More info button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 3",
-    "button": "Title: Systema Alimentarium",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 3",
-    "button": "Header: Exhibition",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Card 3",
-    "button": "Find out more button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 4",
-    "button": "Title: Garden",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 4",
-    "button": "Header: Exhibition",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Card 4",
-    "button": "See more button",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Info Card 1 more info button",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to \"This month at the Alimentarium\" page"
-  },
-  {
-    "page": "Info Card 2 more info button",
-    "button": "Click on More info button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to \"School activities\" page"
-  },
-  {
-    "page": "Info Card 3 more info button",
-    "button": "Click on Find out more button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to \"Systema Alimentarium\" page"
-  },
-  {
-    "page": "Info Card 4 more info button",
-    "button": "Click on See more button",
-    "status": "Pass",
-    "remarks": "Successfully navigated to \"Garden\" page"
-  },
-  {
-    "page": "WaterMark- What's On",
-    "button": "What's on? Text",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "WaterMark- What's On",
-    "button": "Section Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Category",
-    "status": "Fail",
-    "remarks": "Expected: \"Workshops for kids\" | Actual: \"\nWorshops for kids\""
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Date",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Age",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Description",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Book Button",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 1",
-    "button": "Children’s birthday parties - Image",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Category",
-    "status": "Fail",
-    "remarks": "Expected: \"Workshops for school groups\" | Actual: \"\nWorshops for school groups\""
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Date",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Age",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Description",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Book Button",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 2",
-    "button": "Cooking workshops for school groups - Image",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Category",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Date",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Age",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Price",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Description",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Book Button",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Activity 3",
-    "button": "Cooking together - Image",
-    "status": "Pass",
-    "remarks": "Element Visible"
-  },
-  {
-    "page": "Activity 1 Book Now",
-    "button": "Children’s birthday parties - Navigation",
-    "status": "Pass",
-    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/childrens-birthday-parties"
-  },
-  {
-    "page": "Activity 2 Book Now",
-    "button": "Cooking workshops for school groups - Navigation",
-    "status": "Pass",
-    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-workshops-school-groups"
-  },
-  {
-    "page": "Activity 3 Book Now",
-    "button": "Cooking together - Navigation",
-    "status": "Pass",
-    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-together"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Subtitle",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Description",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "All Activities Button",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Subtitle",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Title",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "Info Description",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "All Activities Button",
-    "status": "Pass",
-    "remarks": "Text verified and is Visible"
-  },
-  {
-    "page": "Info Section",
-    "button": "All Activities Navigation",
-    "status": "Pass",
-    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/plan-your-visit/workshops"
+    "remarks": "Correct URL: https://www.tripadvisor.co.uk/Attraction_Review-g198827-d246801-Reviews-Alimentarium_Food_Museum-Vevey_Canton_of_Vaud.html"
   },
   {
     "page": "Footer : Subscribe Now section",
@@ -555,7 +69,7 @@
     "page": "Footer : Subscribe Now section",
     "button": "Click on Submit",
     "status": "Pass",
-    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=A-mAEr25QbH86q0HkfNxOxEscNUzp_s0N5VyfI29bv0"
+    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=EGQWIvUIFCO1V3JiSjjmae-e6ID2q-nvbKRLE3N8Xcs"
   },
   {
     "page": "Footer About us section",

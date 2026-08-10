@@ -24,9 +24,155 @@ export class Footer{
 
         this.subFooterLinks = this.subFooter.locator('ul.foooter-sub-list li a');
 
+        this.backToTop= page.locator('.scroll-top-top a.btn-to-top');
+
+        this.backToTopArrow = this.backToTop.locator('use[xlink\\:href="#arrow-top"]');
+
+        this.socialLinks = {
+            facebook: page.locator(
+                    'ul.social-footer-list a[href*="facebook.com"]'
+                ),
+
+                instagram: page.locator(
+                    'ul.social-footer-list a[href*="instagram.com"]'
+                ),
+
+                youtube: page.locator(
+                    'ul.social-footer-list a[href*="youtube.com"]'
+                ),
+
+                tripadvisor: page.locator(
+                    'ul.social-footer-list a[href*="tripadvisor"]'
+                )
+       
+            };
+
         //this.slNo=1;
 
     }
+    
+    async verifyBackToTop() {
+
+        // Scroll to bottom of page
+        await this.page.evaluate(() => {
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+
+        await this.page.waitForTimeout(500);
+
+        // Verify Back to Top button
+        await AssertionHelper.verifyVisible(
+            this.backToTop,
+            'Footer',
+            'Back to Top',
+            false
+        );
+
+        // Verify href
+        // const actualHref =
+        //     await this.backToTop.getAttribute('href');
+
+        // if (actualHref === '#') {
+
+        //     report.addResult(
+        //         'Footer',
+        //         'Back to Top - Href',
+        //         'Pass',
+        //         'Correct href: #'
+        //     );
+
+        // } else {
+
+        //     report.addResult(
+        //         'Footer',
+        //         'Back to Top - Href',
+        //         'Fail',
+        //         `Expected: # | Actual: ${actualHref}`
+        //     );
+        // }
+
+        // Click Back to Top
+        await this.backToTop.click();
+
+        // Wait for scrolling animation
+        await this.page.waitForTimeout(1000);
+
+        // Check current scroll position
+        const scrollPosition = await this.page.evaluate(
+            () => window.scrollY
+        );
+
+        if (scrollPosition <= 10) {
+
+            report.addResult(
+                'Footer',
+                'Back to Top - Navigation',
+                'Pass',
+                'Successfully returned to top of page'
+            );
+
+        } else {
+
+            report.addResult(
+                'Footer',
+                'Back to Top - Navigation',
+                'Fail',
+                `Page did not return to top. Scroll position: ${scrollPosition}`
+            );
+        }
+    }
+    
+     async verifySocialLinks(socialLinksData) {
+
+        for (const social of socialLinksData) {
+            
+            const socialName = social.name.toLowerCase();
+            
+            const socialLink = this.page.locator(
+                `ul.social-footer-list a[href*="${social.domain}"]`
+                ).first();
+
+            await AssertionHelper.verifyVisible(
+                socialLink,
+                'Footer - Social Media Links',
+                socialName,
+                false
+            );
+
+            const actualUrl =
+                await socialLink.getAttribute('href');
+
+            if (actualUrl === social.expectedUrl) {
+
+                report.addResult(
+                    'Footer - Social Media Links',
+                    socialName,
+                    'Pass',
+                    `Correct URL: ${actualUrl}`
+                );
+
+            } else {
+
+                report.addResult(
+                    'Footer - Social Media Links',
+                    socialName,
+                    'Fail',
+                    `Expected: ${social.expectedUrl} | Actual: ${actualUrl}`
+                );
+            }
+        };
+     
+        // getDomain(name); {
+
+        //     const domains = {
+        //         Facebook: 'facebook.com',
+        //         Instagram: 'instagram.com',
+        //         YouTube: 'youtube.com'
+        //     };
+
+        //     return domains[name];
+        // }
+     }
 
     async verifySubscribeNow(subscribeNowData){
         await AssertionHelper.verifyVisible(this.subscribeNow, 'Footer : Subscribe Now section', 'Subscribe Now', false);

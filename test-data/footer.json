@@ -120,5 +120,33 @@
                 "expectedUrl": "/en/basic-page/visitor-regulations"
             }
         ]
+    },
+
+    "socialLinks": [
+        {
+            "name": "Facebook",
+            "domain": "facebook.com",
+            "expectedUrl": "http://www.facebook.com/alimentarium"
+        },
+        {
+            "name": "Instagram",
+            "domain": "instagram.com",
+            "expectedUrl": "https://www.instagram.com/alimentarium/"
+        },
+        {
+            "name": "YouTube",
+            "domain": "youtube.com",
+            "expectedUrl": "https://www.youtube.com/user/alimentariumvevey"
+        },
+        {
+            "name": "Tripadvisor",
+            "domain": "tripadvisor",
+            "expectedUrl": "https://www.tripadvisor.co.uk/Attraction_Review-g198827-d246801-Reviews-Alimentarium_Food_Museum-Vevey_Canton_of_Vaud.html"
+        }
+    ],
+
+    "backToTop": {
+        "title": "Back to top"
     }
+
 }
