@@ -1,5 +1,551 @@
 [
   {
+    "page": "Header",
+    "button": "Logo",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Search Icon",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Tickets Button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Profile Icon",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Language Selector",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Visit Menu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Learn & Play Menu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "About us Menu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header",
+    "button": "Accessibility Menu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Title: Swiss Museum Prize 2026",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Subtitle: Competition",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 1",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Swiss Museum Prize 2026 page"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Title: Share your story",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Subtitle: Testimonies",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 2",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Share your story page"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Title: “Alima”",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Subtitle: ",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 3",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to “Alima” page"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Title: Cooking together",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Subtitle: Workshops",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 4",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Cooking together page"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Title: Open kitchen",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Subtitle: Animation",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Verify Banner Description",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Verify Banner 5",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to Open kitchen page"
+  },
+  {
+    "page": "Info Card 1",
+    "button": "Title: This month at the Alimentarium",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 1",
+    "button": "Header: Activities",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Card 1",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 2",
+    "button": "Title: School activities",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 2",
+    "button": "Header: Activities",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Card 2",
+    "button": "More info button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 3",
+    "button": "Title: Systema Alimentarium",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 3",
+    "button": "Header: Exhibition",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Card 3",
+    "button": "Find out more button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 4",
+    "button": "Title: Garden",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 4",
+    "button": "Header: Exhibition",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Card 4",
+    "button": "See more button",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Info Card 1 more info button",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"This month at the Alimentarium\" page"
+  },
+  {
+    "page": "Info Card 2 more info button",
+    "button": "Click on More info button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"School activities\" page"
+  },
+  {
+    "page": "Info Card 3 more info button",
+    "button": "Click on Find out more button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"Systema Alimentarium\" page"
+  },
+  {
+    "page": "Info Card 4 more info button",
+    "button": "Click on See more button",
+    "status": "Pass",
+    "remarks": "Successfully navigated to \"Garden\" page"
+  },
+  {
+    "page": "WaterMark- What's On",
+    "button": "What's on? Text",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "WaterMark- What's On",
+    "button": "Section Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Category",
+    "status": "Fail",
+    "remarks": "Text Mismatch"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 1",
+    "button": "Children’s birthday parties - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Category",
+    "status": "Fail",
+    "remarks": "Text Mismatch"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 2",
+    "button": "Cooking workshops for school groups - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Category",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Date",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Age",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Price",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Book Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Activity 3",
+    "button": "Cooking together - Image",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Activity 1 Book Now",
+    "button": "Children’s birthday parties - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/childrens-birthday-parties"
+  },
+  {
+    "page": "Activity 2 Book Now",
+    "button": "Cooking workshops for school groups - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-workshops-school-groups"
+  },
+  {
+    "page": "Activity 3 Book Now",
+    "button": "Cooking together - Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/activities/cooking-together"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Subtitle",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Subtitle",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Title",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "Info Description",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Button",
+    "status": "Pass",
+    "remarks": "Text verified and is Visible"
+  },
+  {
+    "page": "Info Section",
+    "button": "All Activities Navigation",
+    "status": "Pass",
+    "remarks": "Successfully navigated to https://staging.alimentarium.org/en/plan-your-visit/workshops"
+  },
+  {
     "page": "Footer",
     "button": "Back to Top",
     "status": "Pass",
@@ -69,7 +615,7 @@
     "page": "Footer : Subscribe Now section",
     "button": "Click on Submit",
     "status": "Pass",
-    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=EGQWIvUIFCO1V3JiSjjmae-e6ID2q-nvbKRLE3N8Xcs"
+    "remarks": "Successfully subscribed https://staging.alimentarium.org/en/form/newsletter-subscription/confirmation?token=5vKfiM7iAXJBH0xYxaq9CeF-Wg3ezgg6IX0KfvqY9MI"
   },
   {
     "page": "Footer About us section",
@@ -466,5 +1012,431 @@
     "button": "Visitor Regulations URL",
     "status": "Pass",
     "remarks": "Correct URL: /en/basic-page/visitor-regulations"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Practical information Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Opening hours & Entrance fees",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "The Spaces",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Eat, Drink & Read",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Getting here",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Contact us",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Exhibition Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Exhibition",
+    "button": "SYSTEMA ALIMENTARIUM. Towards a Great Food Revolution?",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit > Exhibition",
+    "button": "Share your story",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Self-guided & Guided tours Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Workshops & Activities Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our Content Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "E-collection",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Recipes",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Articles",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Themes & stories",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Videos",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Webseries",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Teaching resources",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Fact Sheets",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Timeline",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our games Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our games",
+    "button": "Yamiquizz",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our courses Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Adults",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Teachers",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Children",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Surprise me Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Learn & Play > Surprise me",
+    "button": "Don’t know what to read ? Randomize !",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us",
+    "button": "About us Submenu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Governance",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Manifesto",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Partners",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Activity reports",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Team",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Accessibility",
+    "button": "Accessibility Menu",
+    "status": "Pass",
+    "remarks": "Element Visible"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Practical information",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/visit/practical-information"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Opening hours & Entrance fees",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/opening-hours-entrance-fees"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "The Spaces",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/spaces"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Eat, Drink & Read",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/eat-drink"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Getting here",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/getting-here"
+  },
+  {
+    "page": "Header > Visit > Practical information",
+    "button": "Contact us",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/contact-us"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Exhibition",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/visit/systema-alimentarium-towards-great-food-revolution"
+  },
+  {
+    "page": "Header > Visit > Exhibition",
+    "button": "SYSTEMA ALIMENTARIUM. Towards a Great Food Revolution?",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/visit/systema-alimentarium-towards-great-food-revolution"
+  },
+  {
+    "page": "Header > Visit > Exhibition",
+    "button": "Share your story",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/share-your-story"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Self-guided & Guided tours",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/plan-your-visit/visit"
+  },
+  {
+    "page": "Header > Visit",
+    "button": "Workshops & Activities",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/plan-your-visit/workshops"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our Content",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/knowledge/explore"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "E-collection",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/knowledge/collection"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Recipes",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/knowledge/recipes"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Articles",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/discover/articles"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Themes & stories",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/discover/explore"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Videos",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/discover/videos"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Webseries",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/discover/webseries"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Teaching resources",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/knowledge/resources"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Fact Sheets",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/knowledge/fact-sheets"
+  },
+  {
+    "page": "Header > Learn & Play > Our Content",
+    "button": "Timeline",
+    "status": "Pass",
+    "remarks": "Navigation successful: /sites/default/files/applications/Timeline_inventions_EN/dist/index.html"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our games",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/learn-play/games/all"
+  },
+  {
+    "page": "Header > Learn & Play > Our games",
+    "button": "Yamiquizz",
+    "status": "Pass",
+    "remarks": "Navigation successful: /sites/default/files/games/Yamyquiz/index.html"
+  },
+  {
+    "page": "Header > Learn & Play",
+    "button": "Our courses",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/learn-play/academy/explore"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Adults",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/learn-play/academy/adults"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Teachers",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/learn-play/academy/teachers"
+  },
+  {
+    "page": "Header > Learn & Play > Our courses",
+    "button": "Children",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/learn-play/academy/kid"
+  },
+  {
+    "page": "Header > Learn & Play > Surprise me",
+    "button": "Don’t know what to read ? Randomize !",
+    "status": "Fail",
+    "remarks": "Random navigation failed. Actual URL: https://staging.alimentarium.org/en"
+  },
+  {
+    "page": "Header > About us",
+    "button": "About us",
+    "status": "Pass",
+    "remarks": "Navigation Successful /en/visit/about-us"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Governance",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/foundation"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Manifesto",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/manifesto"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Partners",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/our-partners"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Activity reports",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/activity-reports"
+  },
+  {
+    "page": "Header > About us > About us",
+    "button": "Team",
+    "status": "Pass",
+    "remarks": "Navigation successful: /en/basic-page/team"
+  },
+  {
+    "page": "Header",
+    "button": "Accessibility",
+    "status": "Pass",
+    "remarks": "Navigation successful"
   }
 ]

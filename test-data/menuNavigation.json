@@ -1,0 +1,201 @@
+{
+    "menus":[
+        {
+            "title":"Visit",
+            "url":"/en",
+            "subMenus":[
+                {
+                    "title":"Practical information",
+                    "url":"/en/visit/practical-information",
+                    "childMenus":[
+                        {
+                            "title":"Opening hours & Entrance fees",
+                            "url":"/en/basic-page/opening-hours-entrance-fees"
+                        },
+                        {
+                            "title":"The Spaces",
+                            "url":"/en/basic-page/spaces"
+                        },
+                        {
+                            "title":"Eat, Drink & Read",
+                            "url":"/en/basic-page/eat-drink"
+                        },
+                        {
+                            "title":"Getting here",
+                            "url":"/en/basic-page/getting-here"
+                        },
+                        {
+                            "title":"Contact us",
+                            "url":"/en/contact-us"
+                        }
+                    ]
+                },
+                {
+                    "title":"Exhibition",
+                    "url":"/en/visit/systema-alimentarium-towards-great-food-revolution",
+                    "childMenus":[
+                        {
+                            "title":"SYSTEMA ALIMENTARIUM. Towards a Great Food Revolution?",
+                            "url":"/en/visit/systema-alimentarium-towards-great-food-revolution"
+                        },
+                        {
+                            "title":"Share your story",
+                            "url":"/en/basic-page/share-your-story"
+                        }
+                    ]
+                },
+                {
+                    "title":"Self-guided & Guided tours",
+                    "url":"/en/plan-your-visit/visit"
+                },
+                {
+                    "title":"Workshops & Activities",
+                    "url":"/en/plan-your-visit/workshops"
+                }
+            ],
+            "visitInformation":[
+                {
+                    "title":"Opening hours",
+                    "date": "From Tuesday to Sunday",
+                    "monthandTime":"October to March:\n10:00 - 17:00\nApril to September:\n10:00 - 18:00"
+                },
+                {
+                    "title":"Contact",
+                    "email":"reservation@alimentarium.org"
+                },
+                {
+                    "title":"Entrance fees",
+                    "age":"Adults: CHF 15.00\nReduced rate: CHF 12.00\nChildren 6-15: CHF 6.00\nChildren 0-5: Free"
+                },
+                {
+                    "title":"Address",
+                    "address":"Quai Perdonnet 25\nCH-1800 Vevey\nSwitzerland"
+                }
+            ]
+        },
+        {
+            "title":"Learn & Play",
+            "url":"/en",
+            "subMenus":[
+                {
+                    "title":"Our Content",
+                    "url":"/en/knowledge/explore",
+                    "childMenus":[
+                        {
+                            "title":"E-collection",
+                            "url":"/en/knowledge/collection"
+                        },
+                        {
+                            "title":"Recipes",
+                            "url":"/en/knowledge/recipes"
+                        },
+                        {
+                            "title":"Articles",
+                            "url":"/en/discover/articles"
+                        },
+                        {
+                            "title":"Themes & stories",
+                            "url":"/en/discover/explore"
+                        },
+                        {
+                            "title":"Videos",
+                            "url":"/en/discover/videos"
+                        },
+                        {
+                            "title":"Webseries",
+                            "url":"/en/discover/webseries"
+                        },
+                        {
+                            "title":"Teaching resources",
+                            "url":"/en/knowledge/resources"
+                        },
+                        {
+                            "title":"Fact Sheets",
+                            "url":"/en/knowledge/fact-sheets"
+                        },
+                        {
+                            "title":"Timeline",
+                            "url":"/sites/default/files/applications/Timeline_inventions_EN/dist/index.html"
+                        }
+                    ]
+                },
+                {
+                    "title":"Our games",
+                    "url":"/en/learn-play/games/all",
+                    "childMenus":[
+                        {
+                            "title":"Yamiquizz",
+                            "url":"/sites/default/files/games/Yamyquiz/index.html"
+                        }
+                    ]
+                },
+                {
+                    "title":"Our courses",
+                    "url":"/en/learn-play/academy/explore",
+                    "childMenus":[
+                        {
+                            "title":"Adults",
+                            "url":"/en/learn-play/academy/adults"
+                        },
+                        {
+                            "title":"Teachers",
+                            "url":"/en/learn-play/academy/teachers"
+                        },
+                        {
+                            "title":"Children",
+                            "url":"/en/learn-play/academy/kid"
+                        }
+                    ]
+                },
+                {
+                    "title":"Surprise me",
+                    "url":"",
+                    "type":"special",
+                    "childMenus":[
+                        {
+                            
+                            "title":"Don’t know what to read ? Randomize !",
+                            "url":"/en/story/social-and-cultural-value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"About us",
+            "url":"/en",
+            "subMenus":[
+                {
+                    "title":"About us",
+                    "url":"/en/visit/about-us",
+                    "childMenus":[
+                        {
+                            "title":"Governance",
+                            "url":"/en/basic-page/foundation"
+                        },
+                        {
+                            "title":"Manifesto",
+                            "url":"/en/basic-page/manifesto"
+                        },
+                        {
+                            "title":"Partners",
+                            "url":"/en/basic-page/our-partners"
+                        },
+                        {
+                            "title":"Activity reports",
+                            "url":"/en/basic-page/activity-reports"
+                        },
+                        {
+                            "title":"Team",
+                            "url":"/en/basic-page/team"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Accessibility",
+            "url":"/en/basic-page/alimentarium-accessible-all"
+        }
+    ]
+}

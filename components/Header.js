@@ -26,13 +26,7 @@ export class Header{
         });
        
         await AssertionHelper.verifyVisible(menuName, 'Header',`${menu.menu} Menu`,false)
-        // await expect(menuName).toBeVisible();
-        // report.addResult(
-        //     'Header',
-        //     `${menu.menu} Menu`,
-        //     'Pass',
-        //     `Menu is visible`
-        // );
+        
     }
 
     async verifyHeader() {
@@ -48,66 +42,6 @@ export class Header{
         await AssertionHelper.verifyVisible(this.languageSelector,'Header','Language Selector',false);
     }
 
-    //async verifyHeader(){
-        
-    //  try{  
-    //     await expect(this.logo).toBeVisible();
-    //     report.addResult(
-    //         "Header",
-    //         "Logo",
-    //         "Pass",
-    //         "Visible"
-    //     );
-    //     } catch(error){
-    //         report.addResult("Header", "Logo", "Fail", error.message);
-    //         throw error;
-    //     }
-
-    // try{  
-    //     await expect(this.searchIcon).toBeVisible();
-    //     report.addResult(
-    //         'Header',
-    //         'Search Icon',
-    //         'Pass',
-    //         'Visible'
-    //     );
-    //     } catch(error){
-    //         report.addResult("Header", "Search Icon", "Fail", error.message);
-    //         throw error;
-    //     }
-
-        
-    //     await expect(this.searchIcon).toBeVisible();
-    //     report.addResult(
-    //         'Header',
-    //         'Search Icon',
-    //         'Pass',
-    //         'Visible'
-    //     );
-
-    //     await expect(this.ticketButton).toBeVisible();
-    //     report.addResult(
-    //         'Header',
-    //         'Tickets Button',
-    //         'Pass',
-    //         'Visible'
-    //     );
-    //     await expect(this.profileIcon).toBeVisible();
-    //     report.addResult(
-    //         'Header',
-    //         'Profile Icon',
-    //         'Pass',
-    //         'Visible'
-    //     );
-    //     await expect(this.languageSelector).toBeVisible();
-    //     report.addResult(
-    //         'Header',
-    //         'Language Selector',
-    //         'Pass',
-    //         'Visible'
-    //     );
-    
-//}
     async clicklogo(){
         await this.logo.click();
     }
